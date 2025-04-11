@@ -14,6 +14,7 @@
 
 
 <body>
+
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
             <h1 class="navbar-brand m-0 section-title">Major</h1>
@@ -46,54 +47,71 @@
             </nav>
         </div>
     </header>
+
+
+    
     <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
-        <section id="sobre-o-restaurante">
-            <div class="carousel-slide" data-bs-ride="carousel" id="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="./images/slides/slide1.png" alt="Foto do espaço interno do restaurante">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./images/slides/slide2.png" alt="Duas tças de vinho">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./images/slides/slide3.png" alt="Uma mesa com comida">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
-                </div>
-            </div>
-            <div class="pt-5 pb-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <img src="./images/restaurante.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante" >
+        <div class="container">
+            <section id="sobre-o-restaurante">
+                <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="./images/slides/slide1.png" alt="Foto do espaço interno do restaurante">
+                            <div class="carousel-caption">
+                                <h2>Interior do restaurante</h2>
+                            </div>
                         </div>
-                        <div class="col-md-7 mt-3 mt-md-0">
-                            <h2 class="section-title">Sobre <span class="text-colored" >o restaurante</span></h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nesciunt illo libero consectetur ipsam, ea laborum inventore neque nobis eius voluptates ex quo perferendis similique aspernatur, possimus fugit tenetur minus?
-                            </p>
-                            <h3 class="section-title">Sobre <span class="text-colored">o epaço</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nesciunt illo libero consectetur ipsam, ea laborum inventore neque nobis eius voluptates ex quo perferendis similique aspernatur, possimus fugit tenetur minus?
-                            </p>
-                            <ul>
-                                <li>item 1</li>
-                                <li>item 2</li>
-                                <li>item 3</li>
-                            </ul>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="./images/slides/slide2.png" alt="Duas tças de vinho">
+                            <div class="carousel-caption">
+                                <h2>Vinhos</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="./images/slides/slide3.png" alt="Uma mesa com comida">
+                            <div class="carousel-caption">
+                                <h2>Buffet de comidas</h2>
+                            </div>
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+
                 </div>
-            </div>
+            </section> 
+        </div>
+        
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="./images/restaurante.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante" >
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">Sobre <span class="text-colored" >o restaurante</span></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nesciunt illo libero consectetur ipsam, ea laborum inventore neque nobis eius voluptates ex quo perferendis similique aspernatur, possimus fugit tenetur minus?
+                                </p>
+                                <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nesciunt illo libero consectetur ipsam, ea laborum inventore neque nobis eius voluptates ex quo perferendis similique aspernatur, possimus fugit tenetur minus?
+                                </p>
+                                <ul>
+                                    <li>item 1</li>
+                                    <li>item 2</li>
+                                    <li>item 3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
         <section id="eventos" class="pt-5 pb-5">
             <div class="container">
@@ -120,7 +138,7 @@
                         <img src="./images/eventos/confraternizacoes.jpg" alt="" class="d-block w-100 rounded mb-2">
                         <h3 class="section-title text-colored fs-4 pt-4">
                             <i class="bi bi-people-fill me-1"></i>
-                            confraternizações
+                            Confraternizações
                         </h3>
                         <p>ur adipisicing elit. Molestias laudantium eaque quis, mollitia perspiciatis porro iste minus placeat sequi explicabo numquam, debitis eius quae! Omnis molestias soluta illo similique dicta!</p>
                     </div>
@@ -148,8 +166,8 @@
                             <div class="tab-pane active" id="bebidas-sem-alcool">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="./images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola">
-                                        <h5 class="text-colored fw-bold" mt-2>coca-cola</h5>
+                                        <img class="d-block w-100 " src="./images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2" >Coca-cola</h5>
                                         <p>qui consectetur necessitatibus doloribus tenetur!</p>
                                     </div>
                                     <div class="col-md-3">
@@ -163,7 +181,7 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <img class="d-block w-100" src="./images/cardapio/bebidas/cerveja.jpg" alt="cerveja">
-                                        <h5 class="text-colored fw-bold" mt-2>Cerveja</h5>
+                                        <h5 class="text-colored fw-bold mt-2" >Cerveja</h5>
                                         <p>qui consectetur necessitatibus doloribus tenetur!</p>
                                     </div>
                                     <div class="col-md-3">
@@ -177,7 +195,7 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <img class="d-block w-100" src="./images/cardapio/entradas/entrada.jpg" alt="pão e frios">
-                                        <h5 class="text-colored fw-bold" mt-2>Pão e frios</h5>
+                                        <h5 class="text-colored fw-bold mt-2" >Pão e frios</h5>
                                         <p>qui consectetur necessitatibus doloribus tenetur!</p>
                                     </div>
                                 </div>
@@ -186,7 +204,7 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <img class="d-block w-100" src="./images/cardapio/pratos/pizza.jpg" alt="pizza">
-                                        <h5 class="text-colored fw-bold" mt-2>Pizza</h5>
+                                        <h5 class="text-colored fw-bold mt-2" >Pizza</h5>
                                         <p>qui consectetur necessitatibus doloribus tenetur!</p>
                                     </div>
                                     <div class="col-md-3">
@@ -200,12 +218,12 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <img class="d-block w-100" src="./images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
-                                        <h5 class="text-colored fw-bold" mt-2>Bolo</h5>
+                                        <h5 class="text-colored fw-bold mt-2" >Bolo</h5>
                                         <p>qui consectetur necessitatibus doloribus tenetur!</p>
                                     </div>
                                     <div class="col-md-3">
                                         <img class="d-block w-100" src="./images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
-                                        <h5 class="text-colored fw-bold mt-2">cupcake</h5>
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
                                         <p>qui consectetur necessitatibus doloribus tenetur!</p>
                                     </div>
                                 </div>

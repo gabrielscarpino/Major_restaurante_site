@@ -57,8 +57,25 @@ color: white;
     text-decoration: none;
 }
 
+.carousel-item img, .carousel{
+    max-width: 1300px;
+    width: 100%;
+    justify-items: center;
+}
+
 @media (max-width: 767px) {
     .carousel-item img{
         height: 280px;
+    }
+
+    .tab-pane img{
+        margin-top: 16px;
+    }
+}
+
+@media (min-width: 768px) (max-width: 1023px) {
+
+    .tab-pane img{
+        margin-top: 16px;
     }
 }
